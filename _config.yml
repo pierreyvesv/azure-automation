@@ -211,7 +211,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/azure-automation"
       type: posts
     values:
       layout: single
