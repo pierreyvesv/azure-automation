@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "/azure-automation/" # the subpath of your site, e.g. /blog/
-url: "https://pierreyvesv.github.io/azure-automation/"
+url: "https://pierreyvesv.github.io/"
 twitter_username: pverdon
 github_username:  pierreyvesv
 locale                   : "en-US"
