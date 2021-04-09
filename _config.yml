@@ -51,12 +51,12 @@ repository: pierreyvesv/azure-automation
 twitter:
   username               : "pverdon"
 
-# # Analytics
-# analytics:
-#   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
-#   google:
-#     tracking_id          : "UA-172048300-1"
-#     anonymize_ip         : false # true, false (default)
+# Analytics
+analytics:
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "G-0NFPJJR9PV"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
