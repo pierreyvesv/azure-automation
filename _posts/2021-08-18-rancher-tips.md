@@ -15,7 +15,7 @@ helm install rancher rancher-stable/rancher --namespace rancher --set hostname=r
 kubectl describe certs tls-rancher-ingress -n rancher
 ```
 
-```txt
+```bash
 Status:
   Conditions:
     Last Transition Time:        2021-07-30T07:16:03Z
@@ -42,7 +42,7 @@ helm install rancher rancher-stable/rancher --namespace cattle-system --set host
 kubectl describe certs tls-rancher-ingress -n cattle-system
 ```
 
-```txt
+```bash
 Status:
   Conditions:
     Last Transition Time:  2021-08-18T12:41:17Z
