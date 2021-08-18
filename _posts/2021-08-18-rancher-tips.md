@@ -2,7 +2,7 @@
 layout: single
 title:  "Rancher namespace has to be cattle-system"
 date:   2021-04-30 22:40:46 +0100
-categories: aks
+categories: kubernetes
 ---
 
 ## Rancher namespace must be cattle-system
