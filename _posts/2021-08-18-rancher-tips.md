@@ -9,7 +9,8 @@ categories: aks
 
 "tls-rancher" secret is stored in cattle system , installing rancher in an other namespace will not found the secret .
 
-```helm install rancher rancher-stable/rancher --namespace rancher --set hostname=rancher.local --set replicas=3 --set ingress.tls.source=rancher
+```bash
+helm install rancher rancher-stable/rancher --namespace rancher --set hostname=rancher.local --set replicas=3 --set ingress.tls.source=rancher
 
 kubectl describe certs tls-rancher-ingress -n rancher
 ```
