@@ -7,7 +7,7 @@ categories: finops
 
 ## mannually delete resource that have been manually erased on Azure
 
-you can also use `terraform state rm`
+you can also use `terraform state rm` like this `terraform state rm module.linux2.azurerm_backup_protected_vm.backup_vms[\"iav004\"]`
 
 ### download the state locally
 
