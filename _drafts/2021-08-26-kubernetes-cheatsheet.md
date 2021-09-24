@@ -156,3 +156,16 @@ kubectl get events --field-selector involvedObject.kind=Node,involvedObject.name
 ## show version
 
 `kubectl get pods --all-namespaces -o=jsonpath='{range .items[*]}{"\n"}{.metadata.name}{":\t"}{range .spec.containers[*]}{.image}{", "}{end}{end}' | sort`
+
+
+## Upgrade
+
+`kubeadm upgrade plan`
+
+### etcd
+ETCDCTL_API=3 etcdctl snapshot save snapshot.db
+ETCDCTL_API=3 etcdctl snapshot status snapshot.db
+
+## videos
+
+[Disaster Recovery for your Kubernetes Clusters [I] - Andy Goldstein & Steve Kriss, Heptio](https://www.youtube.com/watch?v=qRPNuT080Hk)
