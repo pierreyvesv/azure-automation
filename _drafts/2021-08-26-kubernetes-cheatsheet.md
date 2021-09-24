@@ -169,3 +169,20 @@ ETCDCTL_API=3 etcdctl snapshot status snapshot.db
 ## videos
 
 [Disaster Recovery for your Kubernetes Clusters [I] - Andy Goldstein & Steve Kriss, Heptio](https://www.youtube.com/watch?v=qRPNuT080Hk)
+
+## api version
+
+from kube ApiServer
+
+`curl http://localhost:6443 -k`
+
+`curl http://localhost:6443/apis -k  | grep name`
+
+`curl http://localhost:6443 -k --key admin.key --cert admin.crt --cacert ca.crt`
+
+alternate:
+
+```bash
+kubectl proxy
+curl http://localhost:8001 -k
+```
